@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff8f2;
+    color: #333;
+    padding: 20px;
+    position: relative;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #cart-counter {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff9aa2;
+    padding: 8px 12px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+    margin-top: 20px;
+  }
+  
+  .product-card {
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 15px;
+    width: 320px; 
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s; 
+  }
+  
+  
+  button {
+    margin-top: 10px;
+    background-color: #ffb6b9;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff9aa2;
+  }
+  
+  .cart-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #cart-section {
+    margin-top: 30px;
+    text-align: center;
+    display: none; 
+  }
+  
+  #cart-items {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+  }
+  /* About Us Section */
+.about-us {
+    background-color: #f9f9f9;
+    padding: 30px 20px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .about-us h3 {
+    font-size: 24px;
+    color: #ff6f61;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  

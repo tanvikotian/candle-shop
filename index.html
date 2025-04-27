@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Light Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Light Up 🕯️</h1>
+    <div id="cart-counter">
+      Cart: <span id="cart-count">0</span> 
+    </div>
+  </header>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="https://i.pinimg.com/736x/c7/2e/fc/c72efc46c7ae12eece9d1243a658fd74.jpg" alt="Lavender Candle">
+      <h3>Lavender Candle</h3>
+      <p>₹299</p>
+      <button onclick="addToCart('Lavender Candle', 299)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/9d/44/53/9d4453c8314f35fcedf2d7662f421e9a.jpg" alt="Cinnamon Candle">
+        <h3>Cinnamon Candle</h3>
+        <p>₹379</p>
+        <button onclick="addToCart('Cinnamon Candle', 379)">Add to Cart</button>
+      </div>
+      
+      <div class="product-card">
+        <img src="https://i.pinimg.com/736x/33/7c/df/337cdf2e787b98b3c222af2f493af52a.jpg" alt="Ocean Breeze Candle">
+        <h3>Ocean Breeze Candle</h3>
+        <p>₹429</p>
+        <button onclick="addToCart('Ocean Breeze Candle', 429)">Add to Cart</button>
+      </div>
+      
+      <div class="product-card">
+        <img src="https://i.pinimg.com/736x/49/06/8c/49068c6150bf1cf6b207763312570d07.jpg" alt="Lemon Candle">
+        <h3>Lemon Candle</h3>
+        <p>₹299</p>
+        <button onclick="addToCart('Lemon Candle', 299)">Add to Cart</button>
+      </div>
+      
+      <div class="product-card">
+        <img src="https://i.pinimg.com/736x/54/4a/9e/544a9e985b9e86bb15615c3f18e9fa0a.jpg" alt="Coffee Bean Candle">
+        <h3>Coffee Bean Candle</h3>
+        <p>₹449</p>
+        <button onclick="addToCart('Coffee Bean Candle', 449)">Add to Cart</button>
+      </div>
+            
+    <div class="product-card">
+      <img src="https://i.pinimg.com/736x/13/2d/ef/132def985fecc7b795baaf419e3d9a1f.jpg" alt="Vanilla Candle">
+      <h3>Vanilla Candle</h3>
+      <p>₹349</p>
+      <button onclick="addToCart('Vanilla Candle', 349)">Add to Cart</button>
+    </div>
+
+  </section>
+
+  <section id="cart-section" style="display: none;">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p id="total-price"></p>
+  </section>
+
+  <div class="cart-button">
+    <button onclick="viewCart()">View Cart</button>
+  </div>
+
+<section class="about-us">
+    <h3>About Us</h3>
+    <p>At Candle Shop, we believe in bringing warmth, comfort, and beautiful scents into your home. Our candles are handcrafted with the finest ingredients, each one designed to evoke a sense of tranquility and peace. Whether you're looking to relax after a long day, create a cozy atmosphere, or give the perfect gift, we have the perfect candle for you!</p>
+    <p>We are passionate about quality, sustainability, and customer satisfaction. All of our candles are made with natural waxes, premium fragrances, and lead-free wicks, ensuring a clean burn and a long-lasting fragrance. Join us in celebrating the beauty of candles!</p>
+  </section>
+  
+  <footer>
+    <p>© 2025 Glow Candle Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
